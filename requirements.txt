@@ -1,0 +1,6 @@
+# Pinned to the Python 3.8 / CUDA 11.6 environment used for training.
+--extra-index-url https://download.pytorch.org/whl/cu116
+torch==1.13.1+cu116
+numpy==1.23.5
+einops==0.7.0
+matplotlib==3.7.5
