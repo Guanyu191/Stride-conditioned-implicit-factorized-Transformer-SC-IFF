@@ -1,6 +1,6 @@
 # Multi-stride neural operators for long-time turbulence prediction
 
-Code for the paper [*Long-time turbulence prediction at fine time steps using multi-stride neural operators*](https://arxiv.org/pdf/2604.12794) by G. Pan, H. Yang, Y. Wang, Z. Xu, N. Yi and J. Wang.
+Code for the paper [*Long-time turbulence prediction at fine time steps using multi-stride neural operators*](https://doi.org/10.1016/j.jcp.2026.115558) by G. Pan, H. Yang, Y. Wang, Z. Xu, N. Yi and J. Wang.
 
 This repository contains the Channel-DT10 case: turbulent channel flow with velocity fields stored every 10 DNS time steps. Training has two stages:
 
@@ -38,9 +38,11 @@ python compare.py
 ```bibtex
 @article{pan2026long,
   title   = {Long-time turbulence prediction at fine time steps using multi-stride neural operators},
-  author  = {Pan, Guanyu and Yang, Huiyu and Wang, Yunpeng and Xu, Zikun and Yi, Nianyu and Wang, Jianchun},
-  journal = {arXiv preprint arXiv:2604.12794},
-  year    = {2026}
+  author  = {Pan, G. and Yang, H. and Wang, Y. and Xu, Z. and Yi, N. and Wang, J.},
+  journal = {Journal of Computational Physics},
+  pages   = {115558},
+  year    = {2026},
+  doi     = {10.1016/j.jcp.2026.115558}
 }
 ```
 
